@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: montserrat;
+}
+body{
+    background-image: url(17973908.jpg);
+}
+.bg{
+    background-color: rgb(34, 80, 112);
+}
+
+nav .nav-item a:hover{
+    color:rgb(0, 255, 42) !important
+}
+nav .nav-item a:active{
+    background-color: rgb(56, 56, 201);
+}
+.active{
+    background-color: rgb(31, 31, 39);
+}
+
+.navbar-toggler:focus{
+        box-shadow:none;
+    }
+
+@media(max-width:768px){
+    
+    }
